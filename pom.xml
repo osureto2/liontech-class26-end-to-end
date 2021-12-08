@@ -7,7 +7,7 @@
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	
-	<name>liontech-maven-web-application-01</name>
+	<name>rbc-maven-web-application-01</name>
 
 	<description>Maven Web Project for Java Project</description>
 
@@ -109,7 +109,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>maven-web-app</finalName>
+		<finalName>landmark-maven-web-app</finalName>
 		
 		<plugins>
 			<plugin>

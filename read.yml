@@ -1,0 +1,8 @@
+## cicd :  continouse integration and deployments 
+
+ci: source code :  git - github
+                   maven: #u dont need a maven server : maven is integration global tools config in jenkins 
+                   ci :  code quality : sonarqube server : intergrate sonar.jenkins
+                          jenkins - nexus ( remote store/arificatory)
+pulll triggers:  pull scm, build periodically, webhooks.
+ testing                 
