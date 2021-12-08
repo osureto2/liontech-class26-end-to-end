@@ -5,4 +5,4 @@ ci: source code :  git - github
                    ci :  code quality : sonarqube server : intergrate sonar.jenkins
                           jenkins - nexus ( remote store/arificatory)
 pulll triggers:  pull scm, build periodically, webhooks.
-                 
+ testing                 
