@@ -6,3 +6,12 @@ ci: source code :  git - github
                           jenkins - nexus ( remote store/arificatory)
 pulll triggers:  pull scm, build periodically, webhooks.
  testing                 
+for the backup task : 
+
+   you need a backup script/file
+   define the crontable. crontab -e 
+   min :hour:days:weeks:months:
+
+DevOps consulting needed to support database migration
+
++13017284356
