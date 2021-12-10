@@ -7,7 +7,7 @@
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	
-	<name>rbc-maven-web-application-01</name>
+	<name>boa-maven-web-application-01</name>
 
 	<description>Maven Web Project for Java Project</description>
 
