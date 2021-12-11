@@ -109,7 +109,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>landmark-maven-web-app</finalName>
+		<finalName>rbc-maven-web-app</finalName>
 		
 		<plugins>
 			<plugin>
