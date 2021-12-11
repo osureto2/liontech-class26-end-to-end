@@ -7,7 +7,7 @@
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	
-	<name>rbc-maven-web-application-01</name>
+	<name>demo-maven-web-application-01</name>
 
 	<description>Maven Web Project for Java Project-td</description>
 
@@ -109,7 +109,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>rbc-maven-web-app</finalName>
+		<finalName>class26-maven-web-app</finalName>
 		
 		<plugins>
 			<plugin>
