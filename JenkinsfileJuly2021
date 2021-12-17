@@ -1,4 +1,4 @@
-node('wallmart-node'){
+node(any){
 
  def mavenHome = tool name: "maven3.8.2"
  
@@ -12,8 +12,7 @@ node('wallmart-node'){
 
  stage('CheckOutCode')
  {
- git branch: 'development', credentialsId: '12993250-1ff3-40a0-9978-794e74dcf712', url: 'https://github.com/LandmakTechnology/maven-web-application.git'
- }
+git credentialsId: 'LTECH', url: 'https://github.com/Elvis-Nketi/liontech-class26-end-to-end.git' }
  
  stage('Build')
  {
@@ -33,7 +32,7 @@ node('wallmart-node'){
  stage('DeployAppIntoTomcatServer')
  {
  sshagent(['c7a7b3d8-55f0-4f83-9e81-d56c154cc647']) {
-  sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@15.206.90.6:/opt/apache-tomcat-9.0.52/webapps/"
+  sh "scp -o StrictHostKeyChecking=no target/*war ubuntu@18.188.171.181:/opt/tomcat9/webapps/"
  }
  }
  
