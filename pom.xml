@@ -109,7 +109,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>Liontech xmas-maven-web-app</finalName>
+		<finalName>Liontech-maven-web-app</finalName>
 		
 		<plugins>
 			<plugin>
